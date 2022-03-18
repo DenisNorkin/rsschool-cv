@@ -1,1 +1,1 @@
-# rsschool-cv
+<https://denisnorkin.github.io/rsschool-cv/cv>
