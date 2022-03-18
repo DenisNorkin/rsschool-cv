@@ -48,8 +48,8 @@ let countBits = function(n) {
 
 ### Courses
   * JavaScript <https://learn.javascript.ru/>
-  * JavaScript v.2.0
-  ![sertificate](assets/01_6htk1xne97.png "sertificate")
+  * JavaScript v.2.0 - https://itgid.info/course/javascript-2
+  ![sertificate](assets/img/01_6htk1xne97.png "sertificate")
   * JS/FE Pre-School 2022 - <https://app.rs.school/certificate/6v05k4mg>
 
 
