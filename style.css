@@ -1,0 +1,199 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  color: #303030;
+  font-family: 'Roboto', sans-serif;
+}
+
+.flex-1 {
+  flex-grow: 1;
+  margin: 30px 0;
+}
+
+.header {
+  box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.5);
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.nav-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.nav-link {
+  padding: 0 15px;
+  line-height: 50px;
+  color: #303030;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: .3s;
+}
+
+.nav-link:hover {
+  color: #dd4430;
+  transition: color .5s;
+}
+
+.section {
+  width: 50%;
+  padding: 10px;
+}
+
+.item-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.section-title {
+  margin-bottom: 20px;
+  border-bottom: 2px solid #3030303d;
+  color: #303030;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+.section-img {
+  margin-bottom: 20px;
+  max-height: 250px;
+  box-shadow: 12px 12px 2px 1px rgba(24, 110, 223, 0.2);
+}
+
+.section-description {
+  overflow: hidden;
+  line-height: 24px;
+}
+
+.item-position {
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.direction {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Стили списка для секций */
+.section-list {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+
+.section-list-item {
+  font-weight: 700;
+  line-height: 2em;
+}
+
+.section-icon {
+  padding: 0 20px 0 0;
+  color: #dd4430c0;
+}
+
+.section-list-item span {
+  font-weight: 400;
+}
+
+.section-link {
+  color: #dd4430;
+  font-weight: 400;
+  text-decoration: none;
+  transition: .3s;
+}
+
+.section-link:hover {
+  color: #303030;
+  transition: color .5s;
+}
+
+.section-progress {
+  display: flex;
+  align-items: center;
+}
+
+.item-title {
+  min-width: 100px;
+  color: #dd4430;
+  font-weight: 700;
+}
+
+.progress-bar {
+  border: 1px solid #247245;
+  width: 200px;
+  height: 10px;
+  border-radius: 4px;
+  margin-left: 20px;
+}
+
+.progress-bar-item {
+  height: 8px;
+  border-radius: 2px;
+  background-color: #247245;
+}
+
+.ninety {
+  width: 138px;
+}
+
+.fifty {
+  width: 79px;
+}
+
+.thirty {
+  width: 39px;
+}
+
+.codewars_badges {
+  margin-left: 20px;
+}
+
+.section-code {
+  font-size: 16px;
+  background-color: #f3f3f365;
+}
+
+.footer {
+  justify-content: space-between;
+  height: 60px;
+  padding: 10px;
+}
+
+.footer-description {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 200px;
+}
+
+.logo-rsschool {
+  width: 110px;
+}
+
+@media (max-width: 768px) {
+  .section {
+    width: 100%;
+  }
+}
