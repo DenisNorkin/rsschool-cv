@@ -1,1 +1,1 @@
-* CV - <https://DenisNorkin.github.io/rsschool-cv/cv>
+* HTML - <https://DenisNorkin.github.io/rsschool-cv/>
